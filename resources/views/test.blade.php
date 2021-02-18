@@ -2,7 +2,7 @@
 @extends('navbar')
 
 @section('title')
-    電子地圖
+    TEST PAGE
 @stop
 
 @section('content')
