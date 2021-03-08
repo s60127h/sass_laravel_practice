@@ -19,6 +19,8 @@ Route::get('/', function () {
 
 Route::get('test', 'Test@index');
 
+Route::get('map', 'MapController@index');
+
 // Route::get('test', function () {
 //     return View::make('test');
 // });

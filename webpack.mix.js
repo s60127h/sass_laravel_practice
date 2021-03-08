@@ -12,7 +12,7 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/navbar.sass', 'public/css/navbar.css')
+    .sass('resources/sass/main.sass', 'public/css/app.css')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
