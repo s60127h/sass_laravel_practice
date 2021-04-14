@@ -19,27 +19,22 @@ body {
   width: 100%;
   z-index: 10000;
 }
-
 #header a {
   color: inherit;
   text-decoration: none;
 }
-
 #header a:hover {
   color: #2ebaae !important;
 }
-
 #header ul {
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
-
 #header ul li {
   display: inline-block;
   padding-left: 0;
 }
-
 #header h1 {
   height: inherit;
   line-height: inherit;
@@ -56,7 +51,6 @@ body {
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
-
 #header h1 a {
   font-size: 0.7em !important;
   margin: 0;
@@ -66,7 +60,6 @@ body {
   font: inherit;
   vertical-align: baseline;
 }
-
 #header .links {
   -moz-flex: 1;
   flex: 1;
@@ -77,20 +70,17 @@ body {
   overflow: hidden;
   padding-left: 1.5em;
 }
-
 #header .links ul li {
   border-left: solid 1px rgba(160, 160, 160, 0.3);
   line-height: 1;
   margin-left: 1em;
   padding-left: 1em;
 }
-
 #header .links ul li:first-child {
   border-left: 0;
   margin-left: 0;
   padding-left: 0;
 }
-
 #header .links ul li a {
   border-bottom: 0;
   font-family: "Raleway", Helvetica, sans-serif;
@@ -99,30 +89,25 @@ body {
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
-
 #header .main {
   height: inherit;
   line-height: inherit;
   text-align: right;
 }
-
 #header .main ul {
   height: inherit;
   line-height: inherit;
 }
-
 #header .main ul li {
   border-left: solid 1px rgba(160, 160, 160, 0.3);
   height: inherit;
   line-height: inherit;
   white-space: nowrap;
 }
-
 #header .main ul li > * {
   display: block;
   float: left;
 }
-
 #header .main ul li > a {
   text-decoration: none;
   border-bottom: 0;
@@ -132,7 +117,6 @@ body {
   text-indent: 4em;
   width: 4em;
 }
-
 #header .main ul li > a:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -145,7 +129,6 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
-
 #header .main ul li > a:before {
   display: block;
   height: inherit;
@@ -157,11 +140,9 @@ body {
   top: 0;
   width: inherit;
 }
-
 #header form {
   margin: 0;
 }
-
 #header form input {
   display: inline-block;
   height: 2.5em;
@@ -169,7 +150,6 @@ body {
   top: -2px;
   vertical-align: middle;
 }
-
 #header #search {
   transition: all 0.5s ease;
   max-width: 0;
@@ -178,16 +158,12 @@ body {
   padding: 0;
   white-space: nowrap;
 }
-
 #header #search input {
   width: 12em;
 }
-
 #header #search.visible {
   max-width: 12.5em;
   opacity: 1;
   padding: 0 0.5em 0 0;
 }
-
-
 

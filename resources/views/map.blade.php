@@ -9,3 +9,9 @@
     這裡要放leaflet
     https://leafletjs.com/download.html
 @stop
+
+<div id="map">
+    <app></app>
+</div>
+
+<script src="{{ mix('js/app.js') }}"></script>
