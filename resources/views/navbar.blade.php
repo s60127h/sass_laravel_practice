@@ -3,14 +3,12 @@
 
 <!-- Header -->
     <header id="header">
-        <h1><a href="index.html">Future Imperfect</a></h1>
+        <h1><a href="index.html">SARAH'S GALLERY</a></h1>
         <nav class="links">
             <ul>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Ipsum</a></li>
-                <li><a href="#">Feugiat</a></li>
-                <li><a href="#">Tempus</a></li>
-                <li><a href="#" data-title="電子地圖">電子地圖</a></li>
+                <li><a href="#">關於我</a></li>
+                <li><a href="#">遊樂場</a></li>
+                <li><a href="<?php echo $_ENV['APP_URL'] . 'map';?>" data-title="電子地圖">電子地圖</a></li>
             </ul>
         </nav>
         <nav class="main">

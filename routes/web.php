@@ -21,6 +21,8 @@ Route::get('test', 'Test@index');
 
 Route::get('map', 'MapController@index');
 
+Route::get('login', 'LoginController@index');
+
 // Route::get('test', function () {
 //     return View::make('test');
 // });
